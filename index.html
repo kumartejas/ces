@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="HandheldFriendly" content="true">
+      <link rel="stylesheet" href="style.css"></head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <div class="navbar" id=mytopnav>
+        
+        <a href="#home">Home</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">About us 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Globalisation</a>
+          </div>
+        </div>
+            <div class="dropdown">
+                <button class="dropbtn">Committees 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">DISEC</a>
+                  <a href="#">UNHRC</a>
+                  <a href="#">UNHCR</a>
+                </div>
+            </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Information 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Host city</a>
+                      <a href="#">Conference Fee</a>
+                      <a href="#">Partners</a>
+                      <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">E-GYMUN 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">About E-GYMUN</a>
+                          <a href="#">E-Conference Fee</a>
+                        
+                        </div>
+                       
+          </div>
+          <a href="#home">Contact US</a>
+          <a href="#home">Register Now</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> 
+        </div>
+    
+     
+      <script>
+        function myFunction() {
+          var x = document.getElementById("mytopnav");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+  </nav>
+  
+<div class="second-part">
+  <br><br>
+  <img src="logo.png" width="320px" height="220px" class="center"><br><br>
+ <div id="main">
+ <div class="row">
+    <div class="column">
+      <p id="demo" s ></p>
+      <h1 style="font-size: large;">Days</h1>
+    </div>
+    <div class="column">
+      <p id="demo1" ></p>
+      <h1 style="font-size: large;">Hours</h1>
+    </div>
+    <div class="column">
+      <p id="demo2" ></p>
+      <h1 style="font-size: large;" >Minutes</h1>
+    </div>
+    <div class="column">
+      <p id="demo3"></p>
+      <h1 style="font-size: large;">Seconds</h1>
+    </div>
+  </div>
+  </div>
+  <p class="venue">15th-18th January 2021</p>
+  <p class="venue">Kuala Lumpur, Malaysia</p>
+  <button class="button">REGISTER NOW</button>
+  <button class="but">ONLINE CONFERENCE</button>
+</div>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 15, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days 
+  document.getElementById("demo1").innerHTML = hours
+  document.getElementById("demo2").innerHTML = minutes
+  document.getElementById("demo3").innerHTML = seconds  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);</script>
+
+</div>
+</div>
+<div class="third-part">
+  <p2 class="p3"><div class="card"><img src="logo.png" alt="Pineapple" class="im"></div><h2 class="head">WHAT IS GYMUN ?</h2>
+    The Global Youth Model United Nations (GYMUN), also known as  Global Youth MUN is a United Nation’s Simulation Conference that aims to inculcate the skills of Public Speaking, Diplomacy and Negotiations among the Youth.
+<br><br>
+GYMUN will provide an overall experience that will encourage andpromote critical thinking and will aid in the establishment and improvement of leadership qualities in the Youth</p2>
+<br><br><br>
+  </div>
+  <br><br> 
+  <div class="third-part">
+<div class="header-bar">
+  <div class="bar"></div>
+  <div class="dropshadow"></div>
+</div>
+<div class="youtube-video" style="float:right;">
+
+  <iframe width="400px" height="325px" src="https://www.youtube.com/embed/2GvIq2SpVFM" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<div class="chat" style="float: left; padding: 0px 0px 0px 12px; background-color: white;">
+  <h2 class="head">WHAT YOU GET ?<br></h2>
+    <h3 style="margin-left:80px ;"><u class="under">Chance to Collaborate and discuss solutions for rising global issues</u></h3>
+    <h3 style="margin-left:80px ;"><u class="under">Traveling with a Purpose</u></p4>
+    <h3 style="margin-left:80px ;"><u class="under">World Class Recognition and Excellent Networking Opportunity</u></h3>
+   <h3 style="margin-left:80px ;"><u class="under">Diplomacy and Lobbying Skill Set</u></h3>
+  
+</div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="third-part"><h2 class="cen">SERIES OF ACTIVITIES</h2>
+      <p2 class="p3"><div class="card"><img src="logo.png" alt="Pineapple" class="im"></div><h2 class="head">GRAND SYMPOSIUM</h2>
+         Global Youth Model United Nations will have the International Grand  Symposium in the opening ceremony and delegates will be introduced  to established and renowned leaders who will address them about the  event theme and share their valuable ideas for inspiration and future implementation
+        <br><br><br><br><br><br>  </div>
+  </div>
+  <div class="sixth-part">
+    <p2 class="p1"><div class="card"><img src="logo.png" alt="Pineapple" class="im3"></div><h2 class="head1">Committee Sessions</h2>
+      These sessions will include delegate recreating the UN assemblies and  will be talking on the behalf of their assigned countries  .  Topics will be from a very broad spectrum and will enable and motivate the participants to seek out information and present in a professional and diplomatic manner.
+      <br><br><br><br><br></div>
+
+<div class="seventh-part">
+  <p2 class="p2"><div class="card"><img src="logo.png" alt="Pineapple" class="im1"></div><h2 class="head">Diplomatic DInner</h2>
+    This formal event at Global Youth Model United Nations 2020 will be specially  organized so that the diverse pool of delegates can sit together and talk and   interact with each other on their topics of interest.
+    Not only that but it will also   feature ambassadors and diplomats from different international organizations   and Government agencies, and it will be a perfect opportunity to get to know  their work and find counsel from their ideas.
+    <br><br><br></div>
+    <div class="sixth-part">
+      <p2 class="p1"><div class="card"><img src="logo.png" alt="Pineapple" class="im3"></div><h2 class="head1">Cultural Night</h2>
+        Making full use of the perfect opportunity of having young dreamers from different parts of the world, GYMUN will also host a cultural  night and delegates will showcase their traditional dresses and appealing  performances.
+        <br><br><br><br><br><br></div>
+  <div class="seventh-part">
+          <p2 class="p2"><div class="card"><img src="logo.png" alt="Pineapple" class="im1"></div><h2 class="head">Kuala Lumpur City Tour</h2>
+            The heavenly city of Kuala Lumpur has many sights that deserve to be  be seen and appreciated and for that matter, GYMUN 2020 also features a tour of the city so that participants can experience the lifestyle and the   beautiful culture.
+            <br><br><br><br><br><br></div>
+           
+    <div class="sixth-part">
+      <h2 style="font-size: 40px;color:white;text-shadow:2px 2px 5px black;text-align: center;">Gallery</h2>
+      <div class="row1">
+        <div class="column1">
+          <img src="img_snow.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column1">
+          <img src="img_forest.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column1">
+          <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      <div class="row1">
+        <div class="column1">
+          <img src="img_snow.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column1">
+          <img src="img_forest.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column1">
+          <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>      
+    </div>
+<br>
+    <h9 class="butto">Lets get started</h9>
+    <button class="butt">Register Now</button>
+    <div class="sixth-part">
+      <h2 style="font-size: 40px;color:white;text-shadow:2px 2px 5px black;text-align: center;">Rundown</h2>
+    </div>
+    <div class="seventh-part">
+      <h2 style="font-size: 40px;color:blue;text-shadow:2px 2px 5px black;text-align: center;">Awards</h2>
+      <div class="row1">
+        <div class="column1">
+          <img src="award.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column1">
+          <img src="award.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column1">
+          <img src="award.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+    </div>
+
+    <div class="sixth-part">
+      <table ><img src="logo.png" alt="Pineapple" class="footerimg">
+  <tr>
+    <th>About US</th>
+    <th>Committees</th> 
+    <th>Information</th>
+  </tr>
+  <tr>
+    <td>Globalizon</td>
+    <td>DISEC</td>
+    <td>Host City</td>
+    
+    
+    
+  </tr>
+  <tr>
+    <td>Executive Council</td>
+    <td>UNHRC</td>
+    <td>Venue</td>
+    
+  </tr>
+  <tr>
+    <td>Secretariat</td>
+    <td>UNHCR</td>
+    <td>Visa</td>
+    
+  </tr>
+  <tr>
+    <td>Ambassadors</td>
+    <td>Crisis Committee</td>
+    <td>Conference Fee</td>
+  </tr><br><br><br><br><br><br>
+</table>
+        
+<br>
+<u style="color: cornsilk;"></u>
+</div>
+</body>
+
+</html>
